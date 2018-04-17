@@ -15,7 +15,7 @@ class App extends Component {
 <main role="main">
 
     <div className="row">
-      <div className="col-md-12">
+      <div className="col-12">
         <h2>Really Fantastic Bar</h2>
 
         <ul>
@@ -28,13 +28,15 @@ class App extends Component {
 
       </div>
     </div>
-    <div className="row">
-      <div className="col-sm-6 text-left"><i className="fas fa-arrow-alt-circle-left fa-3x"></i></div>
-      <div className="col-sm-6 text-right"><i className="fas fa-arrow-alt-circle-right fa-3x"></i></div>
+    <div className="row page-nav">
+      <div className="col-6 text-left"><i className="fas fa-arrow-alt-circle-left fa-3x"></i></div>
+      <div className="col-6 text-right"><i className="fas fa-arrow-alt-circle-right fa-3x"></i></div>
     </div>
 
   </main>
-
+  <footer>
+    <p>Footery things</p>
+  </footer>
       </div>
     );
   }
