@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Styles for appyHour */
+
+
+header, footer {
+	background-color: #000;
+	color: #fff;
+	padding: 40px 20px;
+}
+header h1 {
+		font-family: 'Black Han Sans', sans-serif;
+		width: 100%;
+}
+
+
+main { 
+	width: 90%;
+	margin: 20px auto; 
+}
+
+ul { 
+	list-style-type: none;
+	padding: 0;
+}
+
+footer {}
