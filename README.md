@@ -5,7 +5,11 @@ This is a React client started using create-react-app
 
 ### Data Info
 
+To be Determined.
+
 ### Feature Info
+
+To Be Determined.
 
 ### Install Info
 
