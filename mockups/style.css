@@ -1,0 +1,60 @@
+/*fonts
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', cursive;
+*/
+
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #383838;
+  background-color: #284C34;
+}
+
+main {
+    width: 90%;
+
+}
+
+h1 {
+  font-family: 'Oldenburg', cursive;
+  background-color: #FFBC57;
+  border: solid #383838 2px;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+}
+
+.price-range {
+  float: right;
+  font-size: 60%;
+  margin-right: 10px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info {
+  display: block;
+}
+
+.location {
+  margin-left: 30px;
+}
+
+.bar-list-item {
+  margin: auto;
+  margin-bottom: 10px;
+  border: solid #284C34 1px;
+  border-radius: 6px;
+  padding: 30px;
+}
+

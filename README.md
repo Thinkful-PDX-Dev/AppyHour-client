@@ -16,3 +16,6 @@ To Be Determined.
 1. git clone this to your local dev environment.
 2. Run > ``npm install`` to install the node modules
 3. run > ``npm start`` or ``yarn start`` to start up the app and open it in a browser at http://localhost:3000
+
+### Mockups
+HTML/CSS static mockups can be found in the /mockups folder.
