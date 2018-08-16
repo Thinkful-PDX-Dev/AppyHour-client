@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Detail from './components/detail/detail';
+import Header from './components/Header';
+import LandingPage from './components/Landing-Page';
+import Detail from './components/Detail';
+import Contributors from './components/Contributors';
+import List from './components/List';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
@@ -10,12 +13,12 @@ class App extends Component {
 	  return (
 		<Router>
 			<div className="App">
-				<header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-					<h1 className="App-title">Welcome to AppyHour</h1>
-				</header>
+				<Header />
 				<main>
-					<Route exact path="/" component={Detail} />
+					<Route exact path="/" component={LandingPage} />
+					<Route exact path="/detail" component={Detail} />
+					<Route exact path="/list" component={List} />
+					<Route exact path="/contributors" component={Contributors} />
 				</main>
 				<footer>
 					<p>Footery things</p>

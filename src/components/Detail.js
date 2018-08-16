@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MOCK_DETAIL_DATA } from './mock-data';
+import { MOCK_DETAIL_DATA } from './MOCK_DATA';
 
 export default class Detail extends Component {
 	render() {
