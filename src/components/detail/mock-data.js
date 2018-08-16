@@ -1,6 +1,6 @@
 export const MOCK_DETAIL_DATA = {
 	name: 'Really Fantastic Bar',
-	image: 'https://via.placeholder.com/500x500',
+	image: 'https://via.placeholder.com/200x200',
 	address: '666 Sesame Street',
 	neighborhood: 'NW',
 	phone: '503-898-1234',
