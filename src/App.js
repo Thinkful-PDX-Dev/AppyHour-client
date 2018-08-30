@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import LandingPage from './components/Landing-Page';
 import Detail from './components/Detail';
 import Contributors from './components/Contributors';
@@ -20,9 +21,7 @@ class App extends Component {
 					<Route exact path="/list" component={List} />
 					<Route exact path="/contributors" component={Contributors} />
 				</main>
-				<footer>
-					<p>Footery things</p>
-				</footer>
+				<Footer />
 			</div>
 		</Router>
 	)}

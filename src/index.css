@@ -1,22 +1,36 @@
+/* STYLE GUIDE
+* thinkful blue: #2D52F7;
+* light blue: #C0CDFE
+* grey: #C9C9C9;
+*
+* FONTS:;
+* meriweather
+* muli
+*/
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-family: 'Muli', serif;
 }
 
 /* Styles for appyHour */
 
 
 header, footer {
-	background-color: #000;
-	color: #fff;
-	padding: 40px 20px;
+	text-align:center;
+	width: 100%;
 }
 header h1 {
-		font-family: 'Black Han Sans', sans-serif;
+		font-family: 'Merriweather', serif;
 		width: 100%;
 }
 
+.App-logo {
+ height: 80px;
+ margin-top:40px;
+}
 
 main { 
 	width: 90%;
@@ -27,7 +41,39 @@ ul {
 	list-style-type: none;
 	padding: 0;
 }
+nav {
+	margin-top: 60px;
+	background-color: #C0CDFE;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.listing {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.rating, .bar-name, .address {
+	display: block;
+}
+.description {
+	margin-top: 20px;
+}
+
+footer ul {
+  height: 60px;
+}
+
+footer li {	
+	display: inline-block;
+	padding: 10px 20px;
+}
 
 footer { 
 	padding: 20px 20px;
+	background-color: #c9c9c9;
 }
