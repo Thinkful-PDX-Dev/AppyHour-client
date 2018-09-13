@@ -7,7 +7,8 @@ class Header extends Component {
 		return (
 			<header className="App-header">
 				<Link to='/'>
-					<img src={logo} className="App-logo" alt="logo" />
+					<img src={logo} className="App-logo" alt="Appy Hour" />
+					<h1>Appy Hour</h1>
 				</Link>
 				<nav className="appy-nav">
 					<ul>

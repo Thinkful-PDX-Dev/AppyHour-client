@@ -10,28 +10,41 @@ export default class Detail extends Component {
 					<div className="col-6 text-left"><i className="fas fa-arrow-alt-circle-left fa-3x"></i></div>
 					<div className="col-6 text-right"><i className="fas fa-arrow-alt-circle-right fa-3x"></i></div>
 				</div>
-				<div>
-					<h2>{loc.name}</h2>
-					<img src={loc.image} 
+				<section className="listing">
+					<img src={loc.imageLg} 
 						alt={'Image of ' + loc.name}
 						title={'Image of ' + loc.name} />
-					<h3>{loc.neighborhood}</h3>
-					<ul>
-						<li><strong>Location</strong>: {loc.address}</li>
-						<li><strong>Phone</strong>: {loc.phone}</li>
-						<li><strong>Hours</strong>: {loc.hours}</li>
-					</ul>  
-					<h3>Description</h3>
-					<p>{loc.description}</p>
-					<div>
-						<h3>Website/Social</h3>
-						<ul>
-							<li><strong>Website</strong>: {loc.links.website}</li>
-							<li><strong>Instagram</strong>: {loc.links.instagram}</li>
-							<li><strong>Facebook</strong>: {loc.facebook}</li>
-						</ul>
+					<div className="bar-content">
+					<h2 className="bar-name">{loc.name}</h2><span className="rating">
+						{loc.rating}
+						<img className="star" src={require("../assets/colored-star.svg")}/>
+						<img className="star" src={require("../assets/colored-star.svg")}/>
+						<img className="star" src={require("../assets/colored-star.svg")}/>
+						<img className="star" src={require("../assets/colored-star.svg")}/>
+						<img className="star" src={require("../assets/colorless-star.svg")}/>
+						</span>
+						<p>{loc.description}</p>
+						
+						<div className="details">
+							<div><img src={loc.map} /></div>
+							<div>
+								<h3>Neighborhood: {loc.neighborhood}</h3>
+								<ul>
+									<li><strong>Location</strong>: {loc.address}</li>
+									<li><strong>Phone</strong>: {loc.phone}</li>
+									<li><strong>Hours</strong>: {loc.hours}</li>
+								</ul>  
+								
+								<h3>Website/Social</h3>
+								<ul>
+									<li><strong>Website</strong>: {loc.links.website}</li>
+									<li><strong>Instagram</strong>: {loc.links.instagram}</li>
+									<li><strong>Facebook</strong>: {loc.facebook}</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		);
 	}	
