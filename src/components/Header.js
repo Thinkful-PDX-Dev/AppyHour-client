@@ -13,10 +13,10 @@ class Header extends Component {
 				<nav className="appy-nav">
 					<ul>
 						<li>
-							<Link to='/detail'>Neighborhood &#x25BF;</Link>
+							<Link to='/'>Neighborhood &#x25BF;</Link>
 						</li>
 						<li>
-							<Link to='/contributors'>Search</Link> <input type="text"/> <button>Go</button>
+							<Link to='/'>Search</Link> <input type="text"/> <button>Go</button>
 						</li>
 					</ul>
 				</nav>
